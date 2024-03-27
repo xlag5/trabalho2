@@ -6,40 +6,19 @@
 body{
   text-align: center;
   background-color:#E8F1F2;
-
+  
 }
 h1{
-  font-size: 25px ;
+  font-size: 35px ;
 }
 h2{
+  font-size: 30px;
+}
+h3{
   font-size: 20px;
 }
 
-.menu{
-  background-color: rgb(30, 26, 255);
-  display:flex;
-  height: 50px;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
 
-}
-
-.page{
-  margin:0 100px;
-  padding-top: 10px;
-
-}
-.page01{
-  margin-left: 15%;
-}
-
-.page > a{
-  color: black;
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: bold;
-}
 /*VIDEO E AUDIO*/
 
 iframe{
@@ -50,16 +29,19 @@ iframe{
 nav{
   width: 60px;
   display: inline-block;
+  font-size: 25px;
 }
-nav > a{
+nav > a {
   color: black;
   text-decoration:underline;
   font-size: 40px;
+}
+nav > a:last-child{
   text-decoration-color: red;
-
 }
 /*Lista*/
 .list1{
+ 
   margin: 0 auto;
  width: 60px;
   align-items: center;
@@ -70,6 +52,11 @@ nav > a{
  width: 100px;
  align-items: center;
   justify-content: center;
+}
+.sep{
+ align-items: center;
+ border-bottom: 2px black;
+ display: flex;
 }
 
 /*Tabela*/
